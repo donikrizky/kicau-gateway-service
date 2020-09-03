@@ -33,8 +33,8 @@ zuul:
   routes:
     user-service:
       sensitiveHeaders:
-      path: /user/**
-      serviceId: user-service
+      path: /mutual/**
+      serviceId: mutual-service
       strip-prefix: true
     item-service:
       sensitiveHeaders:

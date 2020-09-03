@@ -18,7 +18,7 @@ public class CustomSwaggerResources implements SwaggerResourcesProvider {
     public List<SwaggerResource> get() {
         List<SwaggerResource> resources = new ArrayList<>();
         resources.add(swaggerResource("auth-service", "/auth/v2/api-docs", "2.0"));
-        resources.add(swaggerResource("user-service", "/user/v2/api-docs", "2.0"));
+        resources.add(swaggerResource("mutual-service", "/mutual/v2/api-docs", "2.0"));
         resources.add(swaggerResource("item-service", "/item/v2/api-docs", "2.0"));
         return resources;
     }
