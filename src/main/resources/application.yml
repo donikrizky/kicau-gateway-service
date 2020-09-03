@@ -41,3 +41,8 @@ zuul:
       path: /item/**
       serviceId: item-service
       strip-prefix: true
+    auth-service:
+      sensitiveHeaders:
+      path: /auth/**
+      serviceId: auth-service
+      strip-prefix: true
